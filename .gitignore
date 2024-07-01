@@ -5,10 +5,10 @@
 /deployment/terraform/*.tfvars.json
 /deployment/terraform/*.tfstate
 /deployment/ansible/inventory/*
+/deployment/ansible/collections/ansible_collections/*
 /deployment/ansible/*.pem
 __pycache__/
 terraform.tfstate.backup
-requirements.txt
 .idea/
 .DS_Store
 *.env
@@ -17,3 +17,5 @@ requirements.txt
 *.tfstate.backup
 /env_file.env
 *.sh
+*.toml
+*.lock
